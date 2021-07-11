@@ -1,0 +1,121 @@
+body {
+    font-family: serif, 'Roboto', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(0, 0, 0, 0.623);
+  }
+  
+  header {
+    text-align: center;
+    background-color: rgb(245, 196, 112);
+    padding: 1rem 0 1rem 0;
+    margin: 2rem;
+    border-radius: 0.5rem;
+  }
+  
+  .app-title {
+    font-family:serif;
+    font-size: 2.5rem;
+  }
+  
+  form {
+    margin: 0 2rem 4rem 2rem;
+  }
+  
+  .form__legend {
+    font-size: 1.3rem;
+    padding: 0 0.5rem 0 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .form__fieldset {
+    border-radius: 0.5rem;
+  }
+  
+  .form__add-title, .form__add-description {
+    font-size: 1.2rem;
+  }
+  
+  #form__title-input {
+      margin-bottom: 1rem;
+  }
+  
+  #form__title-input, #form__description-input {
+      width: 100%;
+  }
+  
+  #form__add-button {
+    float: right;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .no-todos-message {
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color:rgb(245, 196, 112);
+  }
+  
+  .todos-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
+  
+  .todo {
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: rgb(243, 240, 240);
+    padding: 0.3rem 0 0.5rem 0;
+    margin-bottom: 1rem;
+    border-radius: 1.5rem;
+    border: 2px solid rgb(245, 196, 112);
+  }
+  
+  .todo__title {
+    margin: 0.5rem;
+  }
+  
+  .todo__description {
+    margin: 0.5rem;
+  }
+  
+  .todo--checked {
+    order: 1;
+    color: black;
+    background-color: lightgrey;
+  }
+  
+  .todo__remove-button {
+    font-size: 1.3rem;
+    padding: 0.2rem 0.6rem 0.2rem 0.6rem;
+    margin-left: 0.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+  
+  }
+  
+  .validation-message {
+    color: red;
+    text-align: center;
+    margin: 2rem;
+    animation: fadeIn linear 1s;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @media (min-width: 700px) {
+    .App {
+      margin: 4rem 4rem 0 4rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .App {
+      margin: 4rem 6rem 0 6rem;
+    }
+  }
