@@ -1,12 +1,8 @@
 import React, { useState } from 'react';
-// import PropTypes from 'prop-types';
-// import { connect } from 'react-redux';
-// import { setGreeting } from '../actions/actions';
-
 import {useDispatch} from 'react-redux';
 import {addTodo} from '../redux/todoSlice';
 
-export default function AddTodo () {
+export default AddTodo =  () => {
 
   const dispatch = useDispatch();
 
@@ -65,9 +61,4 @@ export default function AddTodo () {
     </>
     );
   }
-
-// GreetingInput.propTypes = {
-//   setGreeting: PropTypes.func.isRequired,
-// };
-
-// export default connect(null, { setGreeting })(GreetingInput);
+  

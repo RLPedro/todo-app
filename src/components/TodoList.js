@@ -2,7 +2,7 @@ import React from 'react';
 import Todo from './Todo';
 import { useSelector } from 'react-redux';
 
-export default function TodoList () {
+export default TodoList = () => {
   const todos = useSelector(state => state.todos);
 
   return (

@@ -6,7 +6,7 @@ import AddTodo from './components/AddTodo.js';
 
 import { useSelector } from 'react-redux';
 
-function App() {
+const App = () => {
     const todos = useSelector(state => state.todos);
 
     return (

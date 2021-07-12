@@ -3,7 +3,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { checkToggler, removeTodo } from '../redux/todoSlice'
 
-export default function Todo({ todo }) {
+export default Todo = ({ todo }) => {
   const dispatch = useDispatch();
 
   const handleCheck = () => {

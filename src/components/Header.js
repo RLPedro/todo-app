@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Header() {
+export default Header = () => {
   return (
     <header>
           <h1 className="app-title">To-Do App!</h1>
