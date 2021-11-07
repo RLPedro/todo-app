@@ -1,7 +1,7 @@
 # To-do app
 #### Simple client-side to-do app
 
--- ![screenshot](src/imgs/screen-portffolio.png) --
+-- ![screenshot](print-todo-app.png) --
 
 ## Tech used:
 #### ReactJS, Redux, NodeJS.
